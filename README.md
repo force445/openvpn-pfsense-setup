@@ -1,2 +1,8 @@
-# openvpn-pfsense-setup
-For guide to set up OpenVPN in Pfsense
+# OpenVPN setup for Pfsense
+
+## Requirements
+- Proxmox
+- Pfsense iso image
+- Network setup
+
+## Create Pfsense server
