@@ -22,7 +22,7 @@
 3. After finish the configuration click on finish button and start the VM.
 
 
-![Alt text](http://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/Screenshot%202568-08-06%20at%2011.55.55.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/Screenshot%202568-08-06%20at%2011.55.55.png)
 
 ## Pfsense setup
 1. After start VM press enter accept the agreement to begin setup process.
@@ -103,7 +103,70 @@
 ![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2017.png)
 ![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2018.png)
 
-
 ## OpenVPN setup
 
-1. 
+
+1. Create certificates by go to System --> Certificates --> Add.
+
+
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2019.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2020.png)
+
+
+2. Config CA as the picture below.
+
+
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2021.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2022.png)
+
+
+3. Create server certificate follow the picture below.
+
+
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2023.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2024.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2025.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2026.png)
+
+
+4. Create OpenVPN server follow the picture below.
+
+
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2027.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2028.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2029.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2030.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2031.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2032.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2033.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2034.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2035.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2036.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2037.png)
+
+5. Install OpenVPN Client Export package from package manager.
+
+
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2038.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2039.png)
+
+
+6. Create user from user manager
+
+
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2040.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2041.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2042.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2043.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2044.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2045.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2046.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2047.png)
+
+
+7. Export client and test
+
+
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2048.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2049.png)
+![Alt text](https://github.com/force445/openvpn-pfsense-setup/blob/main/pictures/image%20copy%2050.png)
